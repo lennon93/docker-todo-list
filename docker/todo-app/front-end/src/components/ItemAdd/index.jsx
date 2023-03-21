@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import './styles.css';
 import { FaPlus } from 'react-icons/fa';
 import TaskContext from '../../context/taskContext';
-
+// inicia o projeto
 function ItemAdd() {
   const [description, setDescription] = useState("");
   const { addTask } = useContext(TaskContext);
