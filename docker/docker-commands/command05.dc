@@ -1,1 +1,2 @@
+docker container stop 01container
 docker container rm 01container
