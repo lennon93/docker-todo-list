@@ -1,10 +1,8 @@
-FROM node.14
+FROM node:14
 
 WORKDIR /app
 
 ADD node_modules.tar.gz .
-
-RUN npm install
 
 COPY . .
 
