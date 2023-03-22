@@ -1,1 +1,1 @@
-docker image build -t --name todobackend ./todo-app/back-end
+docker image build -t todobackend ./todo-app/back-end
